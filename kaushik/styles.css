@@ -1,0 +1,93 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #bdcebe;
+    /* font-family: medium-content-title-font,Georgia,Cambria,"Times New Roman",Times,serif; */
+}
+
+
+@media (max-width: 767.98px) { 
+    .header{
+        padding:0;
+    }
+}
+
+
+div.ex1 {
+    /* background:#f7786b; */
+    /*background: #c8d6e5; #B2DBBF;*/
+    background: #412A96;
+    /*background: #D3BCC0;*/
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    width: 100%;
+    font-size: 6vh;
+    height: 100px;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    /*50px;*/
+    font-family: HelveticaNeue-UltraLight;
+    word-spacing: 5px;
+}
+
+.navbar-bg {
+    /*background: #01a3a4; #70C1B3;*/
+    background:#251956;
+    text-decoration: none;
+    color: white;
+}
+
+.active-loc{
+    background: #fff;
+}
+
+/* Page content */
+
+.content {
+    padding: 30px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: inherit;
+    z-index: 1030;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+
+.sticky+.content {
+    padding-top: 60px;
+}
+
+.container-body {
+    padding-bottom: 60px;
+    max-width: inherit;
+    background: white;
+}
+
+.main-container {
+    min-height: 100vh; /* will cover the 100% of viewport */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px; /* height of your footer */
+
+    }
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* style="min-height: 100%; position: relative;" */
