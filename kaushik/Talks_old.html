@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>Kaushik Basu</title>
+
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<style>
+
+/* body {background-color: #bdcebe;} */
+a:hover{color: white;}
+
+ol li {
+ margin-top: 20px;
+}
+
+div.ex1 {
+    /* width: 670px; */
+    /* margin: auto; */
+    /* margin-top: 40px; */
+    /* border-top: 25px solid white;
+    border-left: 25px solid white;
+    border-right: 25px solid white; */
+    background:#f7786b;
+    /* height: 80px; */
+    text-align: center;
+    color:#fff;
+    /* padding-top: 15px; */
+    width: 100%;
+    font-size: 6vh; /*50px;*/
+    font-family:HelveticaNeue-UltraLight; 
+    word-spacing:5px;
+}
+div.ex2 {
+    width: 670px;
+    margin: auto;
+    border-left: 25px solid white;
+    border-right: 25px solid white;
+    background:#f7786b;
+    height: 25px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    word-spacing: 30px;
+    font-weight: bold;
+    }
+
+.ex2dd{
+  overflow: hidden;
+  float: left;
+}
+
+
+.ex2dd .ex2btn {
+  font-size: inherit;
+  border: none;
+  outline: none;
+  color: darkblue;
+  background-color: inherit;
+  text-decoration: none;
+  font-family: inherit;
+  font-weight: inherit;
+  padding-left: 30px;
+  margin: 0;
+}
+
+.ex2btn: hover{color: white;}
+
+.ex22 {
+    display: none;
+    position: absolute;
+    background-color: #f7786b;
+    width: 129px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;}
+
+.ex22 a {
+  float: none;
+  color: black;
+  padding: 8px 8px;
+  text-decoration: none;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 15px;
+  display: block;
+  text-align: left;
+  font-weight: normal;
+}
+
+.ex22 a:hover {
+  background-color: white;
+}
+
+.ex2dd:hover .ex22 {
+  display: block;
+}
+
+div.ex3 {
+    width: 630px;
+    margin: auto;
+    border-top: 25px solid white;
+    border-left: 45px solid white;
+    border-right: 45px solid white;
+    border-bottom: 25px solid white;
+    background-color: white;
+    height: auto;
+    //font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-family: "Times New Roman", Times, serif;
+    padding 10px;
+    //line-height: 1.25;
+    font-size: 14px;
+    text-align: justify;
+
+
+}
+div.ex4 {
+    width: 670px;
+    margin: auto;
+    border-top: 25px solid white;
+    border-left: 25px solid white;
+    border-right: 25px solid white;
+    border-bottom: 10px lightgrey;
+    background-color: lightgrey;
+    height: 50px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 12px;
+}
+div.ex5 {
+    width: 670px;
+    margin: auto;
+    border-left: 25px solid white;
+    border-right: 25px solid white;
+    border-bottom: 25px solid white;
+    background-color: lightgrey;
+    height: 40px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  /* background-color: #333; */
+}
+
+/* Navbar links */
+/* #navbar a {
+  float: left;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+} */
+
+.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1030;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+</style>
+
+
+</head>
+<body>
+
+<!-- <div class="ex1"> <span style="font-size: 50px;font-family:HelveticaNeue-UltraLight; word-spacing:5px">KAUSHIK BASU</span> </div> -->
+
+<!-- 
+<div class="ex2">
+
+<div class="ex2dd">
+<button class="ex2btn">  <a style="text-decoration: none;" href="Homepage.html">Home</a>
+</button>
+</div>
+
+<div class="ex2dd">
+<button class="ex2btn"> <a style="text-decoration: none;" href="Research.html">Research</a>
+</button>
+</div>
+
+<div class="ex2dd">
+<button class="ex2btn"> <a style="text-decoration: none;" href="Teaching.html">Teaching</a>
+</button>
+</div>
+
+<div class="ex2dd">
+<button class="ex2btn"> <a style="text-decoration: none;" href="#">Publication</a>
+</button>
+<div class="ex22">
+      <a href="Journal.html">Journal</a>
+      <a href="Conference.html">Conference</a>
+      <a href="Patent.html">Patent</a>
+</div>
+</div>
+
+<div class="ex2dd">
+<button class="ex2btn"><a style="text-decoration: none;" href="Student.html">Students</a>
+</button>
+</div>
+
+<div class="ex2dd">
+<button class="ex2btn"> <a style="text-decoration: none;" href="Talks.html">Talks</a>
+</button>
+</div>
+
+</div>
+
+
+<div class="ex3"> -->
+
+  <div class="ex1">KAUSHIK BASU</div> 
+
+  <nav class="navbar  navbar-fixed-top navbar-expand-lg navbar-light " style="background-color: #e3f2fd;" id="navbar" >   
+      <!-- <a class="navbar-brand" id="menu">Kaushik</a>       -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span> Menu
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Research</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="teaching.html">Teaching</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Publication
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown" >
+            <a class="dropdown-item" href="#" >Journal</a>
+            <a class="dropdown-item" href="#">Conference</a>
+            <a class="dropdown-item" href="#">Patent</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Students</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="talks.html">Talks</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="card">
+      <div class="card-body">
+          <i>Commercially available high voltage GaN HEMTs: A power converter perspective</i>, December 2018, IEEE ICEE, Bangalore.
+      </div>
+  </div>
+
+  <div class="card">
+      <div class="card-body">
+          <p class="card-text"><i>Euler: Life and Work</i>, EE Friday Seminar, 28th September, 2018, EE, IISc.</p>
+          <a href="https://www.youtube.com/watch?v=G_IsxiRRoNM" target="_blank" class="btn btn-primary">Youtube</a>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-body">
+          <i>Review of Commercially available Power GaN HEMTs</i>, February 2018, CeNSE, IISc 
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-body">
+          <i>Power Electronics Research at IISc</i>, November  2017, IEEE Techical Talk, Texas Instruments, Bangalore
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-body">
+          <i>Medium Voltage Grid Integration of Utility Scale Solar</i>, 2016 EECS symposium, IISc..
+      </div>
+  </div>
+  Biasing and Calibration, Embedded Systems Workshop, IIT Madras, (29/11/2018).
+  High Voltage Power Electronics: HVDC and FACTS, 4 Hrs, CCE, PGCIL Workshop, IISc, (28/11/2018).
+  Embedded Systems Design for Power Electronic Converters, 30Hrs: CCE, STC (06/08/2018-10/08/2018)
+  Power Semiconductor Devices for Power Electronic Converters, 8Hrs: CCE, STC, Organized by Prof. G Narayanan (23/07/2018-27/07/2018)
+  Stability, Protection and Power Conversion Concepts for Modern Power Grid, 10Hrs: CCE STC (22/02/2016-26/02/2016)
+  Two day tutorial on Basic Power Electronics for Robert Bosch Engineering and business solutions (26/11/2015-27/11/2015).
+  Biasing and Calibration, Embedded Systems Workshop, IIT Madras, (29/11/2018).
+  High Voltage Power Electronics: HVDC and FACTS, 4 Hrs, CCE, PGCIL Workshop, IISc, (28/11/2018).
+  Embedded Systems Design for Power Electronic Converters, 30Hrs: CCE, STC (06/08/2018-10/08/2018)
+  Power Semiconductor Devices for Power Electronic Converters, 8Hrs: CCE, STC, Organized by Prof. G Narayanan (23/07/2018-27/07/2018)
+  Stability, Protection and Power Conversion Concepts for Modern Power Grid, 10Hrs: CCE STC (22/02/2016-26/02/2016)
+  Two day tutorial on Basic Power Electronics for Robert Bosch Engineering and business solutions (26/11/2015-27/11/2015).
+  Biasing and Calibration, Embedded Systems Workshop, IIT Madras, (29/11/2018).
+  High Voltage Power Electronics: HVDC and FACTS, 4 Hrs, CCE, PGCIL Workshop, IISc, (28/11/2018).
+  Embedded Systems Design for Power Electronic Converters, 30Hrs: CCE, STC (06/08/2018-10/08/2018)
+  Power Semiconductor Devices for Power Electronic Converters, 8Hrs: CCE, STC, Organized by Prof. G Narayanan (23/07/2018-27/07/2018)
+  Stability, Protection and Power Conversion Concepts for Modern Power Grid, 10Hrs: CCE STC (22/02/2016-26/02/2016)
+  Two day tutorial on Basic Power Electronics for Robert Bosch Engineering and business solutions (26/11/2015-27/11/2015).
+  Biasing and Calibration, Embedded Systems Workshop, IIT Madras, (29/11/2018).
+  High Voltage Power Electronics: HVDC and FACTS, 4 Hrs, CCE, PGCIL Workshop, IISc, (28/11/2018).
+  Embedded Systems Design for Power Electronic Converters, 30Hrs: CCE, STC (06/08/2018-10/08/2018)
+  Power Semiconductor Devices for Power Electronic Converters, 8Hrs: CCE, STC, Organized by Prof. G Narayanan (23/07/2018-27/07/2018)
+  Stability, Protection and Power Conversion Concepts for Modern Power Grid, 10Hrs: CCE STC (22/02/2016-26/02/2016)
+  Two day tutorial on Basic Power Electronics for Robert Bosch Engineering and business solutions (26/11/2015-27/11/2015).
+  Biasing and Calibration, Embedded Systems Workshop, IIT Madras, (29/11/2018).
+  High Voltage Power Electronics: HVDC and FACTS, 4 Hrs, CCE, PGCIL Workshop, IISc, (28/11/2018).
+  Embedded Systems Design for Power Electronic Converters, 30Hrs: CCE, STC (06/08/2018-10/08/2018)
+  Power Semiconductor Devices for Power Electronic Converters, 8Hrs: CCE, STC, Organized by Prof. G Narayanan (23/07/2018-27/07/2018)
+  Stability, Protection and Power Conversion Concepts for Modern Power Grid, 10Hrs: CCE STC (22/02/2016-26/02/2016)
+  Two day tutorial on Basic Power Electronics for Robert Bosch Engineering and business solutions (26/11/2015-27/11/2015).'  Biasing and Calibration, Embedded Systems Workshop, IIT Madras, (29/11/2018).
+  High Voltage Power Electronics: HVDC and FACTS, 4 Hrs, CCE, PGCIL Workshop, IISc, (28/11/2018).
+  Embedded Systems Design for Power Electronic Converters, 30Hrs: CCE, STC (06/08/2018-10/08/2018)
+  Power Semiconductor Devices for Power Electronic Converters, 8Hrs: CCE, STC, Organized by Prof. G Narayanan (23/07/2018-27/07/2018)
+  Stability, Protection and Power Conversion Concepts for Modern Power Grid, 10Hrs: CCE STC (22/02/2016-26/02/2016)
+  Two day tutorial on Basic Power Electronics for Robert Bosch Engineering and business solutions (26/11/2015-27/11/2015).
+  Biasing and Calibration, Embedded Systems Workshop, IIT Madras, (29/11/2018).
+  High Voltage Power Electronics: HVDC and FACTS, 4 Hrs, CCE, PGCIL Workshop, IISc, (28/11/2018).
+  Embedded Systems Design for Power Electronic Converters, 30Hrs: CCE, STC (06/08/2018-10/08/2018)
+  Power Semiconductor Devices for Power Electronic Converters, 8Hrs: CCE, STC, Organized by Prof. G Narayanan (23/07/2018-27/07/2018)
+  Stability, Protection and Power Conversion Concepts for Modern Power Grid, 10Hrs: CCE STC (22/02/2016-26/02/2016)
+  Two day tutorial on Basic Power Electronics for Robert Bosch Engineering and business solutions (26/11/2015-27/11/2015).
+  Biasing and Calibration, Embedded Systems Workshop, IIT Madras, (29/11/2018).
+  High Voltage Power Electronics: HVDC and FACTS, 4 Hrs, CCE, PGCIL Workshop, IISc, (28/11/2018).
+  Embedded Systems Design for Power Electronic Converters, 30Hrs: CCE, STC (06/08/2018-10/08/2018)
+  Power Semiconductor Devices for Power Electronic Converters, 8Hrs: CCE, STC, Organized by Prof. G Narayanan (23/07/2018-27/07/2018)
+  Stability, Protection and Power Conversion Concepts for Modern Power Grid, 10Hrs: CCE STC (22/02/2016-26/02/2016)
+  Two day tutorial on Basic Power Electronics for Robert Bosch Engineering and business solutions (26/11/2015-27/11/2015).
+  Biasing and Calibration, Embedded Systems Workshop, IIT Madras, (29/11/2018).
+  High Voltage Power Electronics: HVDC and FACTS, 4 Hrs, CCE, PGCIL Workshop, IISc, (28/11/2018).
+  Embedded Systems Design for Power Electronic Converters, 30Hrs: CCE, STC (06/08/2018-10/08/2018)
+  Power Semiconductor Devices for Power Electronic Converters, 8Hrs: CCE, STC, Organized by Prof. G Narayanan (23/07/2018-27/07/2018)
+  Stability, Protection and Power Conversion Concepts for Modern Power Grid, 10Hrs: CCE STC (22/02/2016-26/02/2016)
+  Two day tutorial on Basic Power Electronics for Robert Bosch Engineering and business solutions (26/11/2015-27/11/2015).
+  Biasing and Calibration, Embedded Systems Workshop, IIT Madras, (29/11/2018).
+  High Voltage Power Electronics: HVDC and FACTS, 4 Hrs, CCE, PGCIL Workshop, IISc, (28/11/2018).
+  Embedded Systems Design for Power Electronic Converters, 30Hrs: CCE, STC (06/08/2018-10/08/2018)
+  Power Semiconductor Devices for Power Electronic Converters, 8Hrs: CCE, STC, Organized by Prof. G Narayanan (23/07/2018-27/07/2018)
+  Stability, Protection and Power Conversion Concepts for Modern Power Grid, 10Hrs: CCE STC (22/02/2016-26/02/2016)
+  Two day tutorial on Basic Power Electronics for Robert Bosch Engineering and business solutions (26/11/2015-27/11/2015).
+  '
+  
+
+<!-- <ol>
+  <li><i>Commercially available high voltage GaN HEMTs: A power converter perspective</i>, December 2018, IEEE ICEE, Bangalore. </li>
+  <li><i> Euler: Life and Work</i> <a style="text-decoration: none;" href="https://www.youtube.com/watch?v=G_IsxiRRoNM" target="_blank"> ,YouTube </a>, EE Friday Seminar, 28th September, 2018, EE, IISc.  </li>
+  <li><i>Review of Commercially available Power GaN HEMTs</i>, February 2018, CeNSE, IISc </li>
+  <li><i>Power Electronics Research at IISc</i>, November  2017, IEEE Techical Talk, Texas Instruments, Bangalore. </li>
+  <li><i>Medium Voltage Grid Integration of Utility Scale Solar</i>, 2016 EECS symposium, IISc. </li>
+</ol> -->
+
+
+
+
+</div>
+
+<!-- <div class="ex4">
+
+<a style="text-decoration: none;" href="https://www.iisc.ac.in" target="_blank">
+<img src="Home/iisc.jpg"  style="float:left;width:70px; margin: 20px 70px 30px 60px;">
+</a>
+
+<a style="text-decoration: none;" href="http://www.ee.iisc.ac.in/" target="_blank">
+<img src="Home/ee_logo.png"  style="float:right;width:45px; margin: 20px 70px 30px 60px;">
+</a>
+
+</div> -->
+
+<!-- <div class="ex5">
+<i class="fa fa-copyright" style="font-size:18px;"></i>Kaushik Basu
+</div> -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- <picture>
+  <source srcset="iisc.svg" type="image/svg+xml">
+  <img src="iisc.svg" style="width:30%" >
+</picture> -->
+
+<!-- <script>
+    window.onscroll = function() { myFunction()};
+
+  // Get the navbar
+  var navbar = document.getElementById("navbar");
+
+  // Get the offset position of the navbar
+  var sticky = navbar.offsetTop;
+  
+  // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+</script> -->
+
+</body>
+</html>
